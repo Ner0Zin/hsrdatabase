@@ -1,0 +1,118 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+    max-width: 0 auto;
+    margin: 0px;
+    background-color: #202935;
+    color: #000000;
+  
+  }
+  
+  header .logo{
+    width: 180px;
+    display: flex;
+  }
+  header{
+    background-color: #031e3a;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  .botoes{
+    background: #031e3a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .container{
+    width: 100%;
+    height: 70px;
+    background: #0a1d35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paginas {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a1d35;
+  }
+  
+  .page{
+    float: left;
+    border-right: 1px solid #000000;
+  }
+  
+  .page .menu{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .page .menu:hover {
+    background-color: #001652a4;
+  }
+  
+  /* Daqui pra frente é um teste */
+  
+  h1,h2,h3,h4,h5,h6{
+    font-weight: 900;
+    color: #000;
+  }
+  
+  main{
+    padding: 25px;
+  }
+  main .lista-characters{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  main .cartao-icon{
+    background-color: #324352;
+    width: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+  }
+  main .cartao-icon:hover{
+    background-color: #316974;
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+  main .cartao-icon .informacao{
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    
+  }
+  main .cartao-icon .icon{
+    width: 120px;
+    height: 120px;
+  }
+  main .cartao-icon .tipos{
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  main .cartao-icon .tipo{
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+  }
+  .fisico{
+    background-color: rgba(165, 165, 165, 0.966);
+  }
